@@ -1,0 +1,67 @@
+<!--Name: Fiona Ang-->
+<!--File: contact.html-->
+<!--Date: March 4, 2025-->
+<!--Description: This is a html file for Assignment 1 - contact.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="This is a html file for Lab Assignment 1">
+    <meta name="keywords" content="CST8285 - Assignment 1">
+    <meta name="author" content="Fiona .">
+    <title>Fiona's Contact</title>
+    <link rel="stylesheet" type="text/css" href="contact.css">
+</head>
+<body>
+    <!-- This is the header -->
+    <header>
+        <!-- This is the navigation to resume, projects, and contact -->
+        <nav>
+            <a class="nav-link" href="index.html">Home</a>
+            <a class="nav-link" href="resume.html">Resume</a>
+            <a class="nav-link" href="projects.html">Projects</a>
+            <a class="nav-link" href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <!-- This is the main body -->
+    <main>
+        <!-- This is form -->
+        <form method="post" enctype="text/plain">
+            <section id="section1">
+                <h1>Contact Me</h1>
+                <!-- First div for full name -->
+                <div class="full-name">
+                    <label for="firstname">First Name: </label>
+                    <input type="text" id="firstname" name="firstname" required>
+                    <label for="lastname">Last Name: </label>
+                    <input type="text" id="lastname" name="lastname">
+                </div>
+
+                <!-- Second div for email address -->
+                <div class="email-address">
+                    <label for="email">Email: </label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <!-- No div for message -->
+                <label for="message">Message: </label>
+                <textarea id="message" name="message" placeholder="Message here..." rows="8" cols="40"></textarea>
+                
+                <!-- Third div for buttons -->
+                <div class="buttons">
+                    <button type="submit" id="send" value="Send">Send</button>
+                    <button type="reset" id="reset" value="Clear Information">Clear Information</button>
+                </div>
+            </section>
+        </form>
+    </main>
+
+    <!-- This is the footer -->
+    <footer>
+        <p>&copy; 2025 Fiona.</p>
+    </footer>
+</body>
+</html>
+

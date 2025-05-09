@@ -1,0 +1,182 @@
+/*Name: Fiona Ang
+Section: CST 8285 300_301
+File: projects.css
+Date: March 4, 2025
+Description: This is a CSS file for Assignment 1 - projects.css*/
+
+/*CSS for the whole webpage*/
+* {
+    background-color: #FCFCFC;
+    color: #6C675F;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/*CSS for header, nav, and the class nav-link*/
+header, nav, .nav-link {
+    background-color: #9C8560;
+    height: 85px;
+}
+
+/*CSS for nav*/
+nav {
+    color: #FCFCFC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15pt;
+}   
+
+/*CSS for anchors class nav-link*/
+.nav-link {
+    color: #FCFCFC;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+/*CSS for the anchor when hover*/
+a:hover {
+    color: #6C675F;
+}
+
+/*CSS for body*/
+body {
+    margin: 0px;
+}
+
+/*CSS for images*/
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 35px;
+    width: 550px;
+    height: 450px;
+    float: none;
+}
+
+/*CSS for h1*/
+h1 {
+    color: #9C8560;
+    font-family: 'Times New Roman', Times, serif ;
+    text-align: center;
+    font-size: 3em;
+    margin-bottom: 0px;
+}
+
+/*CSS for h3*/
+h3 {
+    color: #9C8560;
+    font-family: 'Times New Roman', Times, serif ;
+    text-align: center;
+    font-size: 30pt;
+    margin: 0px;
+    margin-bottom: 45px;
+    font-weight: 500;
+    margin: 50px;
+}
+
+/*CSS for the class description, h3, h4, li, and the class the-crunch (text)*/
+p, h3 {
+    letter-spacing: 1px;
+    line-height: 30px;
+    text-align: center;
+}
+
+/*CSS for main*/
+main {
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+/*CSS for the class decoration*/
+.decoration {
+    color: #9C8560;
+    margin: 0px auto 0px auto;
+    text-align: center;
+    font-size: 14pt;
+}
+
+/*CSS for the p from footer*/
+footer p{
+    font-style: italic;
+    font-size: 12pt;
+    text-decoration: none;
+    height: 50px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+/*CSS for class buttons*/
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+
+/*CSS for id prev-button and id next-button*/
+#prev-button, #next-button {
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 100px;
+}
+
+/*CSS for id prev-button and id next-button when hover*/
+#prev-button:hover, #next-button:hover {
+    background-color: #9C8560;
+    color: #FCFCFC;
+}
+
+/*CSS to hide project*/
+.project {
+    display: none;
+}
+
+/*CSS to show project */
+.project.visible {
+    display: block;
+}
+
+/*CSS for mobile view*/
+@media screen and (width <= 800px){
+    /*CSS for body*/
+    body {
+        margin: 0px;
+    }
+
+    /*CSS for main and footer*/
+    main, footer {
+        margin: 20px;
+    }
+    
+    /*CSS for footer*/
+    footer {
+        max-height: 40px;
+    }
+
+    /*CSS for images*/
+    img {
+        width: 100%;
+        max-width: 400px;
+        margin-bottom: 30px;
+    }
+
+    /*CSS for h3*/
+    h3 {
+        font-size: 2em;
+        line-height: 40px;
+        margin-bottom: 20px;
+    }
+
+    /*CSS for class nav-link*/
+    .nav-link {
+        margin: auto;
+    }
+}

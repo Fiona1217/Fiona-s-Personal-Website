@@ -1,0 +1,293 @@
+/*Name: Fiona Ang
+Section: CST 8285 300_301
+File: index.css
+Date: March 4, 2025
+Description: This is a CSS file for Assignment 1 - index.css*/
+
+/*CSS for the universal selector*/
+* {
+    background-color: #FCFCFC;
+    color: #6C675F;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/*Remove default margin*/
+body {
+    margin: 0px;
+}
+
+/*CSS for header, nav, and the class nav-link*/
+header, nav, .nav-link {
+    background-color: #9C8560;
+    height: 85px;
+}
+
+/*CSS for nav*/
+nav {
+    color: #FCFCFC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15pt;
+}
+
+/*CSS for anchors class nav-link*/
+.nav-link {
+    color: #FCFCFC;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+/*CSS for the anchor when hover*/
+a:hover {
+    color: #6C675F;
+}
+
+/*CSS for the id called section1*/
+#section1 {
+    margin: 110px auto 160px auto;
+    width: 1050px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 10px 20px 10px;
+}
+
+/*CSS for the class intro-paragraph*/
+.intro-paragraph {
+    font-size: 16pt;
+}
+
+/*CSS for the class intro-link*/
+.intro-link {
+    color: #9C8560;
+    font-weight: bold;
+}
+
+/*CSS for the class intro-link when hover*/
+.intro-link:hover {
+    color: #6C675F;
+}
+
+/*CSS for the class description, h3, h4, li, and the class the-crunch (text)*/
+.description, h3, h4, li, .the-crunch {
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+
+/*CSS for the class called description*/
+.description {
+    text-align: left;
+    width: 600px;
+    margin-right: 30px;
+}
+
+/*CSS for h1*/
+h1 {
+    color: #9C8560;
+    font-family: 'Times New Roman', Times, serif ;
+    text-align: left;
+    font-size: 3em;
+}
+
+/*CSS for div*/
+div {
+    font-size: larger;
+    font-weight: lighter;
+    color: #6C675F;
+}
+
+/*CSS for images*/
+img {
+    align-items: center;
+    justify-content: center;
+    border-radius: 35px;
+}
+
+/*CSS for img from the id section1*/
+#section1 img {
+    width: 400px;
+    float: right;
+}
+
+/*CSS for img from the id section 3*/
+#section3 img {
+    width: 500px;
+    float: left;
+}
+
+/*CSS for id section2, section3, and section4*/
+#section2, #section3, #section4 {
+    margin: auto;
+    width: 1050px;
+}
+
+/*CSS for  the id called section2*/
+#section2{
+    margin-bottom: 200px;
+}
+
+/*CSS for  the id called section3*/
+#section3 {
+    margin-bottom: 200px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    text-align: right;
+}
+
+/*CSS for h3*/
+h3 {
+    color: #9C8560;
+    font-family: 'Times New Roman', Times, serif ;
+    text-align: left;
+    font-size: 30pt;
+    margin: 0px;
+    margin-bottom: 45px;
+    font-weight: 500;
+}
+
+/*CSS for h4*/
+h4 {
+    font-size: 16pt;
+    margin-bottom: 12px;
+    font-weight: normal;
+}
+
+/*CSS for li*/
+li {
+    font-size: 15pt;
+}
+
+/*CSS for ol in the class programming-info*/
+#programming-info ol{
+    margin-top: 12px;
+    font-size: 15pt;
+    margin-bottom: 8px;
+}
+
+/*CSS for the class decoration*/
+.decoration {
+    color: #9C8560;
+    margin: 0px auto 0px auto;
+}
+
+/*CSS for the class project-link*/
+.project-link {
+    text-decoration: none;
+}
+
+/*CSS for class right-align*/
+.right-align {
+    text-align: right;
+}
+
+/*CSS for the class the-crunch*/
+.the-crunch {
+    text-align: right;
+    font-size: 15pt;
+    width: 600px;
+    margin-left: 40px;
+}
+
+/*CSS for class project-link when hover*/
+.project-link:hover{
+    color: #9C8560;
+}
+
+/*CSS for the p from footer*/
+footer p{
+    font-style: italic;
+    font-size: 12pt;
+    text-decoration: none;
+    height: 50px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+/*CSS for mobile view*/
+@media screen and (width <= 1200px ){
+    /*CSS for body*/
+    body {
+        margin: 0px;
+    }
+    
+    /*CSS for main and footer*/
+    main, footer {
+        margin: 20px;
+    }
+
+    /*CSS for ids section1, section2, section3, and section4*/
+    #section1, #section2, #section3, #section4 {
+        width: 95%;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin: auto;
+        margin-top: 30px;
+        margin-left: 10px;
+    }
+
+    /*CSS for the id section1*/
+    #section1 {
+        flex-direction: column-reverse;
+    }
+
+    /*CSS for the id section3*/
+    #section3 {
+        flex-direction: column;
+    }
+
+    /*CSS for images*/
+    img {
+        width: 100%;
+        max-width: 400px;
+        margin-bottom: 30px;
+    }
+
+    /*CSS for the class description and the-crunch*/
+    .description, .the-crunch {
+        text-align: center;
+        width: 90%;
+        margin: auto;
+    }
+
+    /*CSS for h1, h3, and h4*/
+    h1, .right-align, h3, h4 {
+        text-align: center;
+    }
+
+    /*CSS for h1 and h3*/
+    h1, h3 {
+        font-size: 2em;
+    }
+
+    /*CSS for h4*/
+    h4 {
+        font-size: 14pt;
+    }
+
+    /*CSS for li*/
+    ol {
+        text-align: left;
+        max-width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /*CSS for footer*/
+    footer {
+        max-height: 40px;
+    }
+
+    /*CSS for class nav-link*/
+    .nav-link {
+        margin: auto;
+    }
+}

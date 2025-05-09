@@ -1,0 +1,231 @@
+/*Name: Fiona Ang
+Section: CST 8285 300_301
+File: resume.css
+Date: March 4, 2025
+Description: This is a CSS file for Assignment 1 - resume.css*/
+
+/*CSS for the whole webpage*/
+* {
+    background-color: #FCFCFC;
+    color: #6C675F;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/*CSS for body*/
+body {
+    margin: 0px;
+}
+
+/*CSS for the class nav-link*/
+header, nav, .nav-link {
+    background-color: #9C8560;
+    height: 85px;
+}
+
+/*CSS for the class description, h4, h5, li, and the class the-crunch (text)*/
+h1, h2, h3, h4, h5, p, li {
+    letter-spacing: 0.5px;
+    line-height: 30px;
+}
+
+/*CSS for nav */
+nav {
+    color: #FCFCFC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15pt;
+}
+
+/*CSS for anchors class nav-link*/
+.nav-link {
+    color: #FCFCFC;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+/*CSS for main*/
+main {
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+/*CSS for h1 from id top-side */
+#top-side h1{
+    font-size: 30pt;
+    margin-bottom: 0px;
+}
+
+/*CSS for h5 for id top-side */
+#top-side h5{
+    font-size: 14pt;
+    margin-top: 10px;
+    font-weight: normal;
+}
+
+/*CSS for the class decoration*/
+.decoration {
+    color: #9C8560;
+    margin: 0px auto 0px auto;
+    text-align: center;
+}
+
+/*CSS for class sections */
+.sections{
+    font-weight: 500;
+}
+
+/*CSS for a from header when hover */
+.nav-link:hover{
+    color: #6C675F;
+}
+
+/*CSS for anchors class nav-link when hover*/
+main a:hover {
+    color: #9C8560;
+}
+
+/*CSS for class left-align */
+.left-align {
+    text-align: left;
+}
+
+/*CSS for center-align */
+.center-align {
+    text-align: center;
+}
+
+/*CSS for right-align */
+.right-align{
+    text-align: right;
+    font-weight: normal;
+}
+
+/*CSS for h1 and h2 */
+h1, h2 {
+    color: #9C8560;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 26pt;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 80px;
+}
+
+/*CSS for h4*/
+h4 {
+    font-weight: normal;
+}
+
+/*CSS for p and li */
+p, li {
+    font-size: 14pt;
+}
+
+/*CSS for the class title-and-date */
+.title-and-date {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 11pt;
+}
+
+/*CSS for class ai-trainer */
+.ai-trainer {
+    margin-bottom: 40px;
+}
+
+/*CSS for the class secondary-heading */
+.secondary-heading {
+    font-size: 13pt;
+    margin-top: 0px;
+}
+
+/*CSS for the class skills-list */
+.skills-list {
+    list-style-type: none;
+    margin-right: auto;
+    margin-left: auto;
+    width: 200px;
+}
+
+/*CSS for the classes left-align, center-align, and right-align */
+.left-align, .center-align, .right-align{
+    padding-left: 0px;
+}
+
+/*CSS for id skills */
+.skills-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*CSS for the p from footer*/
+footer p{
+    font-style: italic;
+    font-size: 12pt;
+    height: 50px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+/*CSS for mobile view*/
+@media screen and (width <= 800px ){
+    /*CSS for body*/
+    body {
+        margin: 0px;
+    }
+    
+    /*CSS for main and footer*/
+    main, footer {
+        margin: 20px;
+    }
+
+    /*CSS for all sections*/
+    #top-side, #summary-objective, #experience, #skills, #education {
+        width: 95%;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin: auto;
+        margin-top: 30px;
+        margin-left: 10px;
+    }
+
+    /*CSS for the class title-and-date*/
+    .title-and-date {
+        flex-direction: column;
+        font-size: 10pt;
+    }
+
+    /*CSS for the class decoration*/
+    .decoration {
+        font-size: 70%;
+    }
+
+    /*CSS for h2, h4, and h5*/
+    .skills-list, h4, h5 {
+        text-align: center;
+    }
+
+    /*CSS for h5*/
+    h5, p {
+        font-size: 14pt;
+    }
+
+    /*CSS for footer*/
+    footer {
+        max-height: 40px;
+    }
+
+    /*CSS fpr class nav-link*/
+    .nav-link {
+        margin: auto;
+    }
+}

@@ -1,0 +1,160 @@
+/*Name: Fiona Ang
+Section: CST 8285 300_301
+File: contact.css
+Date: March 4, 2025
+Description: This is a CSS file for Assignment 1 - contact.css*/
+
+/*CSS for the whole webpage*/
+* {
+    background-color: #FCFCFC;
+    color: #6C675F;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/*CSS for header, nav, and the class nav-link*/
+header, nav, .nav-link {
+    background-color: #9C8560;
+    height: 85px;
+}
+
+/*CSS for nav*/
+nav {
+    color: #FCFCFC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15pt;
+}
+
+/*CSS for anchors class nav-link*/
+.nav-link {
+    color: #FCFCFC;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+/*CSS for the anchor when hover*/
+a:hover {
+    color: #6C675F;
+}
+
+/*CSS for h1*/
+h1 {
+    color: #9C8560;
+    font-family: 'Times New Roman', Times, serif ;
+    text-align: center;
+    font-size: 34pt;
+}
+
+/*CSS for label and id message*/
+label, #message {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 8px;
+}
+
+/*CSS for input*/
+input {
+    width: 150px;
+    height: 20px;
+}
+
+/*CSS for id email*/
+#email {
+    width: 506px;
+}
+
+/*CSS for id message*/
+#message {
+    width: 568px;
+}
+
+/*CSS for class full-name, class email-address, and class user-message*/
+.full-name, .email-address, .user-message {
+    margin-bottom: 15px;
+    width: 600px;
+}
+
+/*CSS for the id called section1*/
+#section1 {
+    margin: 100px auto 93px auto;
+    width: 1050px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 10px 20px 10px;
+}
+
+/*CSS for id firstname*/
+#firstname {
+    margin-right: 40px;
+}
+
+/*CSS for id send*/
+#send {
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+/*CSS for body*/
+body {
+    margin: 0px;
+}
+
+/*CSS for the p from footer*/
+footer p{
+    font-style: italic;
+    font-size: 12pt;
+    text-decoration: none;
+    height: 50px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+/*CSS for mobile view*/
+@media screen and (width <= 800px ){
+    /*CSS for body*/
+    body {
+        margin: 0px;
+    }
+    
+    /*CSS for main and footer*/
+    main, footer {
+        margin: 20px;
+    }
+    
+    /*CSS for footer*/
+    footer {
+        max-height: 40px;
+    }
+
+    /*CSS for class full-name, class email-address, class user-message, label, input, id message, and id email*/
+    .full-name, .email-address, .user-message, label, input, #message, #email {
+        width: 100%;
+        max-width: 550px;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+    /*CSS for id section1*/
+    #section1 {
+        width: 95%;
+        max-width: 600px;
+        align-items: center;
+        text-align: center;
+        margin: auto;
+        flex-direction: column;
+    }
+    
+    /*CSS for class nav-link*/
+    .nav-link {
+        margin: auto;
+    }
+}
